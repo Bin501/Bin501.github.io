@@ -1,0 +1,839 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <title>全球森林资源评估</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="minimum-scale=1, width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://www.fao.org/fileadmin/templates/FRA/FRA2020/src/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+
+    <!--Swiper-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+          integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <!--RangeSlider CSS-->
+    <link rel="stylesheet" href="https://www.fao.org/fileadmin/templates/FRA/FRA2020/src/css/rangeslider.css">
+
+    <!--Main CSS-->
+    <link rel="stylesheet" href="https://www.fao.org/fileadmin/templates/FRA/FRA2020/src/css/index.css">
+    <style>
+        p { 
+            text-indent:2em;}
+    </style>
+
+</head>
+<body class="loading">
+<div id="story-container">
+    <div class="cover">
+
+        <div class="video-wrapper trigger" data-name="video-cover">
+
+            <!--         &lt;!&ndash; Add loop below to activate the loop&ndash;&gt; -->
+                <video loop="" autoplay="" muted="" playsinline="" preload="auto"
+                       class="video-js report-video" data-object-fit="cover" data-object-position="center"
+                       poster="./images/poster-1.jpg" id="video-cover"
+                >
+                    <source src="./images/shutterstock_31100917.mp4" type="video/mp4">
+                    <p class="vjs-no-js">
+                        请使用JavaScript并升级至支持
+                        <a href="https://videojs.com/html5-video-support/" target="_blank">
+                           HTML5
+                        </a>
+                        视频的网络浏览器来观看本视频
+                    </p>
+                </video>
+            <div class="video-gradient dark"></div>
+            <div class="video-gradient"></div>
+        </div>
+
+        <div class="rep-title">
+            <h1>2020年全球森林资源</h1>
+        </div>
+
+    </div>
+
+    <div class="dr-container shifted">
+
+        <br><br>
+        <h2 class="text-center paragraph_subtitle" align="center">全球森林资源评估
+        </h2>
+
+        <p>全面展示世界森林状况及森林资源的变化，提供清晰的全球图景，为森林和林业部门制订合适政策、实施良好做法和开展投资提供了参考。</p>
+
+        <p align="right" >资料来源于联合国粮食及农业组织<a href="./images/CA8753EN.pdf">《2020年全球森林资源评估》</a></p>
+
+        <hr>
+
+
+        <h1 class="text-center">世界森林</h1>
+
+        <p>你知道森林覆盖了全球近<b>1/3的土地</b>吗？</p>
+
+        <p>也就是说森林总面积是<b>40.6亿公顷</b>。</p>
+
+        <p>换句话说，<b>全球人均森林面积达到约0.52公顷。</b></p>
+
+
+        <div class="trigger hectare-animation-container" data-name="hectare-anim">
+            <video loop="" muted="" playsinline="" preload="auto"
+                   class="hectare-video"
+                   poster="" id="hectare-video">
+                <source src="./images/forest-animation-grid_1.mp4" type="video/mp4">
+            </video>
+
+
+            <div id="g-hectare-003-box" class="ai2html">
+
+                <!-- Artboard: Artboard_1 -->
+                <div id="g-hectare-003-Artboard_1" class="g-artboard" style="" data-aspect-ratio="1.622"
+                     data-min-width="0">
+                    <div style="padding: 0 0 61.6505% 0;"></div>
+                    <img id="g-hectare-003-Artboard_1-img" class="g-aiImg" alt="" src="./images/hectare.svg" />
+                    <div id="g-ai0-1" class="g-Layer_1 g-aiAbs g-aiPointText"
+                         style="top:26.588%;margin-top:-11.3px;left:1.2584%;width:55px;">
+                        <p class="g-pstyle0">1000万</p>
+                    </div>
+                    <div id="g-ai0-2" class="g-Layer_1 g-aiAbs g-aiPointText"
+                         style="top:84.3308%;margin-top:-11.3px;left:76.8119%;width:65px;">
+                        <p class="g-pstyle0">1亿</p>
+                    </div>
+                    <div id="g-ai0-3" class="g-Layer_1 g-aiAbs g-aiPointText"
+                         style="top:92.7297%;margin-top:-11.3px;left:29.4717%;width:56px;">
+                        <p class="g-pstyle1">5200万</p>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+        <p>世界一半以上（54%）的森林仅分布在五个国家：俄罗斯联邦、巴西、加拿大、美国与中国。</p>
+
+    </div>
+
+
+    <div class="particle-story-a-holder trigger" data-name="particle-holder">
+
+        <div class="trigger" data-name="step-1">
+            <div class="dr-container-chart-half">
+
+                <h1>俄罗斯联邦</h1>
+                <h1 class="p-numbers" id="p1">8.15亿</h1>
+                <h3>公顷</h3>
+                <h2 class="p-numbers-small" id="p1b">20</h2>
+
+            </div>
+        </div>
+        <div class="trigger" data-name="step-2">
+            <div class="dr-container-chart-half">
+
+                <h1>巴西</h1>
+                <h1 class="p-numbers" id="p2">4.97亿</h1>
+                <h3>公顷</h3>
+                <h2 class="p-numbers-small" id="p2b">12%</h2>
+
+            </div>
+        </div>
+        <div class="trigger" data-name="step-3">
+            <div class="dr-container-chart-half">
+
+                <h1>加拿大</h1>
+                <h1 class="p-numbers" id="p3">3.47亿</h1>
+                <h3>公顷</h3>
+                <h2 class="p-numbers-small" id="p3b">9%</h2>
+
+            </div>
+        </div>
+        <div class="trigger" data-name="step-4">
+            <div class="dr-container-chart-half">
+
+                <h1>美国</h1>
+                <h1 class="p-numbers" id="p4">3.1亿</h1>
+                <h3>公顷</h3>
+                <h2 class="p-numbers-small" id="p4b">8%</h2>
+
+
+            </div>
+        </div>
+        <div class="trigger" data-name="step-5">
+            <div class="dr-container-chart-half">
+
+                <h1>中国</h1>
+                <h1 class="p-numbers" id="p5">2.2亿</h1>
+                <h3>公顷</h3>
+                <h2 class="p-numbers-small" id="p5b">5%</h2>
+
+
+            </div>
+        </div>
+        <div class="trigger" data-name="step-6">
+            <div class="dr-container-chart-half">
+                <h1>世界其他地区</h1>
+                <h1 class="p-numbers" id="p6">18.7亿</h1>
+                <h3>公顷</h3>
+                <h2 class="p-numbers-small" id="p6b">46%</h2>
+            </div>
+        </div>
+
+
+        <div id="particle-container">
+            <div class="dragged-container">
+
+                <div class="tree-anim-1-mask"></div>
+
+                <div class="tree-anim-1-label-container">
+                    <div class="item-label">
+                        <div class="label">
+                            <h4>
+                                俄罗斯联邦
+                            </h4>
+                            <p>20%</p>
+                        </div>
+                    </div>
+                    <div class="item-label">
+                        <div class="label">
+                            <h4>
+                                巴西
+                            </h4>
+                            <p>12%</p>
+                        </div>
+                    </div>
+                    <div class="item-label">
+                        <div class="label">
+                            <h4>
+                                加拿大
+                            </h4>
+                            <p>9%</p>
+                        </div>
+                    </div>
+                    <div class="item-label">
+                        <div class="label">
+                            <h4>
+                                美国
+                            </h4>
+                            <p>8%</p>
+                        </div>
+                    </div>
+                    <div class="item-label">
+                        <div class="label">
+                            <h4>
+                                中国
+                            </h4>
+                            <p>5%</p>
+                        </div>
+                    </div>
+                    <div class="item-label">
+                        <div class="label">
+                            <h4>
+                                世界其他地区
+                            </h4>
+                            <p>46%</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tree-anim-1-container">
+
+                </div>
+                <div class="percentage-container">
+                    <div class="line-1"></div>
+                    <div class="line-2"></div>
+                    <div class="line-3"></div>
+                    <div class="line-4"></div>
+                    <div class="line-5"></div>
+                    <div class="percentage-value"></div>
+                    <div class="rest-of-color"></div>
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+    <div class="chart-container stacked-label-shift">
+
+        <div class="dr-container">
+            <div class="trigger" data-name="proportion-of-global">
+                <div class="chart-title">
+                    <h2>2020年全球森林在各温度带的分布及分布比例
+                    </h2>
+                </div>
+            </div>
+            <div class="areas-switches">
+                <div class="areas-switch tropical">
+                    <div class="areas-ico tropical">
+                        <video muted="" playsinline="" preload="auto"
+                               class="tree-video"
+                               poster="" id="areas-ico-tropical">
+                            <source src="./images/areas-ico-tropical.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <span>热带</span>
+                    <p>45%</p>
+                </div>
+                <div class="areas-switch boreal">
+                    <div class="areas-ico boreal">
+                        <video muted="" playsinline="" preload="auto"
+                               class="tree-video"
+                               poster="" id="areas-ico-boreal">
+                            <source src="./images/areas-ico-boreal.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <span>寒带</span>
+                    <p>27%</p>
+                </div>
+                <div class="areas-switch temperate">
+                    <div class="areas-ico temperate">
+                        <video muted="" playsinline="" preload="auto"
+                               class="tree-video"
+                               poster="" id="areas-ico-temperate">
+                            <source src="./images/areas-ico-temperate.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <span>温带</span>
+                    <p>16%</p>
+                </div>
+                <div class="areas-switch subtropical">
+                    <div class="areas-ico subtropical">
+                        <video muted="" playsinline="" preload="auto"
+                               class="tree-video"
+                               poster="" id="areas-ico-subtropical">
+                            <source src="./images/areas-ico-subtropical.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <span>亚热带</span>
+                    <p>11%</p>
+
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+    <div class="chart-container stacked-label-shift">
+
+        <div class="dr-container">
+            <div class="trigger" data-name="annual-net">
+                <div class="chart-title">
+                    
+                    <h2>1990-2020年天然再生林和人工林面积年度净变化（以十年为时间单位）
+                    </h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="dr-container-chart">
+            <div class="chart-content">
+
+
+                <div id="annual-net" style="height: 350px;"></div>
+
+                <br>
+
+
+                <ul class="list-unstyled list-inline text-center legend legend-annual-net">
+                    <li class="list-inline-item">
+                        <span class="point"></span>天然再生林
+                    </li>
+                    <li class="list-inline-item">
+                        <span class="point"></span>人工林
+                    </li>
+                </ul>
+
+                <p class="note text-center note-white">
+
+                    来源：粮农组织
+                </p>
+
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="video-container">
+
+        <video loop="" autoplay="" muted="" playsinline="" preload="auto"
+               class="video-js report-video" data-object-fit="cover" data-object-position="center"
+               poster="./images/poster-2.jpg" id="video-1">
+            <source src="./images/shutterstock_1024999937.mp4" type="video/mp4">
+        </video>
+    </div>
+
+
+    <div class="chart-container stacked-label-shift">
+
+        <div class="dr-container">
+            <div class="trigger" data-name="annual-forest-area">
+                <div class="chart-title">
+                    
+                    <h2>1990-2020年各地区森林面积年度净变化（以十年为时间单位)
+                    </h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="annual-forest-chart-container">
+            <div id="annual-forest-area" style="height: 350px;"></div>
+        </div>
+
+
+        <div class="dr-container-chart">
+            <div class="chart-content">
+
+                <br>
+
+
+                <ul class="list-unstyled list-inline text-center legend legend-annual-forest-area">
+                    <li class="list-inline-item">
+                        <span class="point"></span>1990 &mdash; 2000
+                    </li>
+                    <li class="list-inline-item">
+                        <span class="point"></span>2000 &mdash; 2010
+                    </li>
+                    <li class="list-inline-item">
+                        <span class="point"></span>2010 &mdash; 2020
+                    </li>
+                </ul>
+
+                <p class="note text-center note-white">
+
+                    <sup>*</sup>根据FRA2020中的区域划分，欧洲包括俄罗斯联邦。
+                </p>
+
+            </div>
+        </div>
+
+
+    </div>
+
+    
+
+    <div class="chart-container">
+
+        <div class="dr-container">
+            <div class="trigger" data-name="annual-forest">
+                <div class="chart-title">
+                    <h2>1990-2020年森林面积年度净变化（以十年为时间单位）</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="dr-container-chart">
+            <div class="chart-content">
+
+
+                <div id="annual-forest" style="height: 350px;"></div>
+
+                <br>
+
+
+                <p class="note text-center note-white">
+
+                    来源：粮农组织
+                </p>
+
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="chart-container stacked-label-shift">
+
+        <div class="dr-container">
+            <div class="trigger" data-name="annual-rate">
+                <div class="chart-title">
+                    <h2>1990-2020年期间年度毁林和森林扩张速度</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="dr-container-chart">
+            <div class="chart-content">
+
+
+                <div id="annual-rate" style="height: 350px;"></div>
+
+                <br>
+
+
+                <ul class="list-unstyled list-inline text-center legend legend-annual-rate">
+                    <li class="list-inline-item">
+                        <span class="point"></span>森林扩张
+                    </li>
+                    <li class="list-inline-item">
+                        <span class="point"></span>毁林
+                    </li>
+                </ul>
+
+                <p class="note text-center note-white">
+
+                    来源：粮农组织
+                </p>
+
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <div class="video-container">
+
+        <video loop="" autoplay="" muted="" playsinline="" preload="auto"
+               class="video-js report-video" data-object-fit="cover" data-object-position="center"
+               poster="./images/poster-3.jpg" id="video-2">
+            <source src="./images/shutterstock_1038964586.mp4" type="video/mp4">
+
+        </video>
+    </div>
+
+
+    <div class="dr-container">
+
+        <hr>
+
+        <h1 class="text-center">森林面临什么风险？</h1>
+
+        <p>森林面临诸多风险，它们可能会对其健康和活力产生负面影响，并损害其提供各种产品和生态系统服务的能力。</p>
+
+        <p>2015年，约有<b>9800万公顷</b>的森林受到<b>火灾</b> 万公顷的森林受到火灾的影响*，热带地区受到的影响最大，该地区当年森林总面积的4%被大火烧毁。受火灾影响的森林总面积2/3以上位于非洲与南美洲。</p>
+
+        <p>2015年<b>病虫害和极端天气</b>破坏了约<b>4000万公顷</b>森林，主要集中在温带和寒带地区。</p>
+
+
+    </div>
+
+    <div class="video-container">
+
+        <video loop="" autoplay="" muted="" playsinline="" preload="auto"
+               class="video-js report-video" data-object-fit="cover" data-object-position="center"
+               poster="./images/poster-4.jpg" id="video-3">
+            <source src="./images/shutterstock_1011287357.mp4" type="video/mp4">
+
+        </video>
+
+
+    </div>
+
+
+    <div class="dr-container">
+        <h1 class="text-center">保护和管理我们的森林</h1>
+
+        <h2 class="text-center">超过7亿公顷的森林在合法的保护区内</h2>
+
+        <p>全球约有7.26亿公顷的森林位于保护区内。1990年以来，全球保护区内的森林面积增加了1.91亿公顷。</p>
+    </div>
+
+    <div class="chart-container stacked-label-shift">
+
+        <div class="dr-container">
+            <div class="trigger" data-name="proportion-forest">
+                <div class="chart-title">
+                    
+                    <h2>2020年各区域保护区内森林面积占区域森林总面积之比</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="dr-container-chart">
+            <div class="chart-content">
+
+
+                <div id="proportion-forest" style="height: 350px;"></div>
+
+                <br>
+
+
+                <p class="note text-center note-white">
+
+                    来源：粮农组织
+                </p>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="chart-container stacked-label-shift">
+
+        <div class="dr-container">
+            <div class="trigger" data-name="proportion-forest">
+                <div class="chart-title">
+                    
+                    <h2><a href="https://maplab.amap.com/share/mapv/e34723a6898248b2767b181c431f3fcb">2020年中国国家级自然保护区分布</a></h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="dr-container-chart">
+            <div class="chart-content">
+
+
+                <div id="proportion-forest" style="height: 350px;">
+                    <iframe src="https://maplab.amap.com/share/mapv/e34723a6898248b2767b181c431f3fcb" height="500px" width="800px"></iframe>
+                </div>
+                
+                <br>
+                <br>
+                <br>
+                <br>
+
+
+                <p class="note text-center note-white" align="center">
+
+                    来源：中国知网
+                </p>
+
+            </div>
+        </div>
+    </div>
+    <div class="chart-container stacked-label-shift">
+
+        <div class="dr-container">
+            <div class="trigger" data-name="proportion-forest">
+                <div class="chart-title">
+                    
+                    <h2><a href="https://maplab.amap.com/share/mapv/0771bd217795b1722ae95aa554a32854">2020年中国各省份森林覆盖率</a></h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="dr-container-chart">
+            <div class="chart-content">
+
+
+                <div id="proportion-forest" style="height: 350px;">
+                    <iframe src="https://maplab.amap.com/share/mapv/0771bd217795b1722ae95aa554a32854" height="500px" width="800px"></iframe>
+                </div>
+                
+                <br>
+                <br>
+                <br>
+                <br>
+
+
+                <p class="note text-center note-white" align="center">
+
+                    来源：中国知网
+                </p>
+
+            </div>
+        </div>
+    </div>
+    <div class="chart-container stacked-label-shift">
+
+        <div class="dr-container">
+            <div class="trigger" data-name="proportion-forest">
+                <div class="chart-title">
+                    
+                    <h2><a href="https://www.globalforestwatch.org/map/?map=eyJjZW50ZXIiOnsibGF0Ijo0NS40Njc5OTM4MDExMjE1MiwibG5nIjo0OC43MjkxODM0NzMxMTg4M319&mapMenu=eyJkYXRhc2V0Q2F0ZWdvcnkiOiJiaW9kaXZlcnNpdHkifQ%3D%3D&mapPrompts=eyJvcGVuIjp0cnVlLCJzdGVwc0tleSI6InN1YnNjcmliZVRvQXJlYSJ9
+                        ">全球森林资源情况</a></h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="dr-container-chart">
+            <div class="chart-content">
+
+
+                <div id="proportion-forest" style="height: 350px;">
+                    <iframe src="https://www.globalforestwatch.org/map/?map=eyJjZW50ZXIiOnsibGF0Ijo0NS40Njc5OTM4MDExMjE1MiwibG5nIjo0OC43MjkxODM0NzMxMTg4M319&mapMenu=eyJkYXRhc2V0Q2F0ZWdvcnkiOiJiaW9kaXZlcnNpdHkifQ%3D%3D&mapPrompts=eyJvcGVuIjp0cnVlLCJzdGVwc0tleSI6InN1YnNjcmliZVRvQXJlYSJ9
+                    " height="500px" width="800px"></iframe>
+                </div>
+                
+                <br>
+                <br>
+                <br>
+                <br>
+
+
+                <p class="note text-center note-white" align="center">
+
+                    来源：www.globalforestwatch.org
+                </p>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+              
+              <br>
+              <br>
+              <br>
+              
+<!-- JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha256-63ld7aiYP6UxBifJWEzz87ldJyVnETUABZAYs5Qcsmc=" crossorigin="anonymous"></script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/7.6.0/polyfill.min.js"></script>
+
+<!--Scroll Story-->
+<script src="https://www.fao.org/fileadmin/templates/FRA/FRA2020/src/js/jquery.scrollstory.min.js"></script>
+
+<!--TweenMax-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+
+<!--CountUp-->
+<script src="https://www.fao.org/fileadmin/templates/FRA/FRA2020/src/js/countUp.min.js"></script>
+<!--<script src="src/js/big-numbers.js"></script>-->
+
+
+<!--Sprite Anim-->
+<script src="https://www.fao.org/fileadmin/templates/FRA/FRA2020/src/js/jquery.spriteanim.js"></script>
+
+
+<!--Lottie-->
+<script src="https://www.fao.org/fileadmin/templates/FRA/FRA2020/src/js/lottie.min.js"></script>
+
+
+<!--Quizzes-->
+<script src="https://www.fao.org/fileadmin/templates/FRA/FRA2020/src/js/quizzes.js"></script>
+
+<!--Highcharts-->
+
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/highcharts-more.js"></script>
+
+
+<!--///////////////////////////////////-->
+
+<!--Charts-->
+<script src="https://www.fao.org/fileadmin/templates/FRA/FRA2020/src/js/charts-zh/annual-forest.js"></script>
+<script src="https://www.fao.org/fileadmin/templates/FRA/FRA2020/src/js/charts-zh/annual-forest-area.js"></script>
+<script src="https://www.fao.org/fileadmin/templates/FRA/FRA2020/src/js/charts-zh/annual-net.js"></script>
+<script src="https://www.fao.org/fileadmin/templates/FRA/FRA2020/src/js/charts-zh/annual-rate.js"></script>
+<script src="https://www.fao.org/fileadmin/templates/FRA/FRA2020/src/js/charts-zh/proportion-forest.js"></script>
+<script src="https://www.fao.org/fileadmin/templates/FRA/FRA2020/src/js/charts-zh/proportion-introduced.js"></script>
+
+
+<script src="https://www.fao.org/fileadmin/templates/FRA/FRA2020/src/js/big-numbers.js"></script>
+
+<script src="https://www.fao.org/fileadmin/templates/FRA/FRA2020/src/js/objectFitPolyfill.min.js"></script>
+
+<!--Freezeframe-->
+<script src="https://unpkg.com/freezeframe/dist/freezeframe.min.js"></script>
+
+<!--Trees-->
+<script src="https://www.fao.org/fileadmin/templates/FRA/FRA2020/src/js/trees.js"></script>
+
+<!--Main Js-->
+<script src="https://www.fao.org/fileadmin/templates/FRA/FRA2020/src/js/index.js"></script>
+
+           
+
+<!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','_gaTracker');
+
+  _gaTracker('create', 'UA-127786997-7', 'fao.org');
+  _gaTracker('send', 'pageview');
+
+  _gaTracker('create', 'UA-16796074-1', {'name':'allTracker'});
+  _gaTracker('allTracker.send', 'pageview');
+
+  _gaTracker('create', 'UA-16957552-1', {'name':'allSites'});
+  _gaTracker('allSites.send', 'pageview');
+
+</script>
+<!-- End Google Analytics -->
+              
+              
+<!-- Google Events Trackers -->
+  <script>
+    $(document).ready(function() {
+      $('.carousel-caption').on('click', function() {
+        var title='Main Slider - '+$(this).find('h3').text();
+        var href=$(this).find('a').attr('href');
+       // console.log(href);
+        _gaTracker('send', 'event', {
+          eventCategory: title,
+          eventAction: 'click',
+          eventLabel: href,
+          transport: 'beacon'
+        });
+      });
+     
+    
+      $('a').not('[href$=".pdf"]').on('click', function() {
+        _gaTracker('send', 'event', this.href, 'click', $(this).text());  
+        _gaTracker('allTracker.send', 'event', this.href, 'click', $(this).text());
+        _gaTracker('allSites.send', 'event', this.href, 'click', $(this).text());         
+      });    
+      $('a[href$=".pdf"]').on('click', function() {
+        _gaTracker('send', 'event', this.href, 'pdf', $(this).text());  
+        _gaTracker('allTracker.send', 'event', this.href, 'pdf', $(this).text());
+        _gaTracker('allSites.send', 'event', this.href, 'pdf', $(this).text());         
+      });
+      $('.social-column').find('a').each(function(){
+        $(this).on('click', function() {
+          _gaTracker('send', 'event', this.href, 'click-social', 'social-footer');  
+          _gaTracker('allTracker.send', 'event', this.href, 'click-social', 'social-footer');
+          _gaTracker('allSites.send', 'event', this.href, 'click-social', 'social-footer');   
+        });  
+      });  
+    
+      //*****************************************************************
+      //     This script is used and customized to measure the page scroll / interaction with Google Universal Analytics.
+      //*****************************************************************
+      /** Predefined variables **/
+      EventNONInteraction = false; // This variable determines the event will be a noninertact event or not
+      Frequency = 10; // This variable determines the Frequency the event will be fired, MAKE SURE THE NUMBER ENTERED CAN BE DIVIDED BY 100 (10 means each 10 precent the event will fire)
+      
+      GA_EventCategory = 'Page Interaction'; // Google Analytics event category
+      GA_EventAction = 'Scroll Down'; // Google Analytics event action.
+      
+      /************ DON'T EDIT BELOW THIS PART ************/
+      _frequency = Frequency;
+      _repentance = 100 / Frequency;
+      var _scrollMatrix = new Array();
+      for (ix = 0; ix < _repentance; ix++) {
+        _scrollMatrix[ix] = [_frequency, 'false'];
+        _frequency = Frequency + _frequency;
+      }
+      $(document).scroll(function (e) {
+        for (iz = 0; iz < _scrollMatrix.length; iz++) {
+          if (($(window).scrollTop() + $(window).height() >= $(document).height() * _scrollMatrix[iz][0] / 100) && (_scrollMatrix[iz][1] == 'false')) {
+            _scrollMatrix[iz][1] = 'true';
+            _gaTracker('send', 'event', GA_EventCategory, GA_EventAction, _scrollMatrix[iz][0] + '%', {'nonInteraction': 1});
+          }
+        }
+      });
+
+    });
+  </script>
+ <!-- Google Events Trackers -->
+
+
+</body>
+</html>
